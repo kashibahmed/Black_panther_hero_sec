@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.right {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: #050509;
+    font-family: "Panthera";
+    color: #fff;
+}
+
+.rcard {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url(https://b463404.smushcdn.com/463404/wp-content/uploads/2018/02/20180214T1106-14600-CNS-MOVIE-REVIEW-BLACK-PANTHER-copy.jpg?lossy=2&strip=1&webp=1);
+    background-size: cover;
+    bottom: 10%;
+    left: 10%;
+}
+
+.picon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #521FFF;
+}
+.rnav {
+    padding: 30px 50px;
+}
+
+.cnav ul {
+
+    list-style-type: none;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cnav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: "Panthera";
+}
+
+.lnav {
+    position: absolute;
+    color: #fff;
+    font-family: "Panthera";
+    padding-top: 30px;
+    right: 0;
+    padding-right: 50px;
+
+}
+
+.lfnav {
+    position: absolute;
+    display: flex;
+    right: -10%;
+    bottom: -10%;
+
+}
+
+.leftn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #521FFF;
+
+}
+
+.leftn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.rightn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #12171F;
+}
+
+.rightn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+
+.right h1 {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 350%;
+    letter-spacing: 8px;
+}
+
+.center {
+    width: 40%;
+    height: 100%;
+    background-image: url(https://w0.peakpx.com/wallpaper/889/43/HD-wallpaper-panther-jaguar-blackpanther-killmonger.jpg);
+    background-size: cover;
+
+}
+
+.left {
+    position: relative;
+   width: 30%;
+   height: 100%;
+   background-color: #050509;
+}
+
+.ltext h4 {
+    position: absolute;
+    color: #fff;
+    width: 80%;
+    /* padding: 50px 50px; */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 35%;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ltext i {
+    position: absolute;
+    color: #38393a94;
+    top: 28%;
+    font-size: 50px;
+    left: -10%;
+}
+
+.lbutton button {
+    position: absolute;
+    top: 52%;
+    left: -5%;
+    width: 230px;
+    height: 50px;
+    background-color: #521FFF;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.lbutton button:hover {
+    background-color: #8839F6;
+}
+
+.stext {
+    position: absolute;
+    left: 60%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-family: "Gilroy";
+    font-size: 12px;
+    font-weight: 200;
+    gap: 15px;
+    top: 80%;
+}
+
+.stext i {
+    font-size: 18px;
+    color: #521FFF;
+}
+
+.social_icons {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    bottom: 5%;
+    left: 70%;
+}
+
+.social_icons a {
+    text-decoration: none;
+    color: #dadada;
+    font-size: 18px;
+}
